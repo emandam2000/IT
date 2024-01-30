@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نموذج</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body onload="Register.ok.disabled =true">
+    <header>
+        <h1> نموذج  تسجيل </h1>
+        <div class="div"style="width: 100px;">
+        <img src="logo.png" class="img1" alt="ايقونة" style="width: 100%;">
+        </div>
+        <div id="navigation">
+            <ul>
+                <li>
+                    <a href="https://academy.hsoub.com/">
+                        الرئسية
+    
+                    </a>
+                    <li>
+                        <a href="sticky.html">
+                            عننا
+        
+                        </a>
+                    </li><li>
+                        <a href="project Eman.html">
+                            تسجيل
+        
+                        </a>
+                    </li>
+                </li>
+            </ul>
+        </div>
+        
+    </header>
+    <div class="contaniner">
+        <div class="row">
+            <div class="col md-2"></div>
+            <div class="col md-8">
+                <main>
+                    <section>
+                        <form name="Register" id="reg" action="#" method="post"> 
+                            <table>
+                                <tr>
+                                    <td><label for="u_name"> الاسم:</label></td>
+                                    <td><input  class =" form-control"type="text" name="user_name" id="u_name" placeholder="الاسم مع اللقب"></td>
+                            
+                                </tr>
+                                <tr>
+                                    <td><label for="u_password"> كلمة المرور:</label></td>
+                                    <td> <input class="form-control" type="password" name="user_pass" id="u_password" placeholder="يجب ان تكون على الاقل 4 احرف كبيره؛صفيره؛رمز؛رقم"  maxlength="12" minlength="4"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="u_password">اعادة كلمة المرور:</label></td>
+                                    <td><input class="form-control"type="password" name="user_pass2" id="u_password1" maxlength="12"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="u_email"> الايميل:</label></td>
+                                    <td> <input class="form-control"type="email" name="user_emil" id="u_email" ></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="u_phone"></label> رقم الهاتف:</td>
+                                    <td> <input  class =" form-control" type="tel" name="user_phone" id="u_phone" placeholder="يجب ان يتكون من 9 ارقام"  maxlength="9"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="user_gender">اختار الجنس   :</label></td>
+                                    <td><input class="form-check-input" type="radio" name="ur_gender" id="user_gender" value="ذكر"> ذكر
+                                        <input class="form-check-input" type="radio" name="ur_gender" id="user_gender" value="انثى"> انثى</td>
+                                </tr>
+                                <td><label for="user_country"> الدولة:</label></td>
+                                <td><select class="form-select" name="ur_country" id="user_country">
+                                    <option value="" disabled selected>اختار دولتك</option>
+                                    <option value="اليمن">اليمن</option>
+                                    <option value="فبسطين">فلسطين</option>
+                                    <option value="سوريا ">سوريا</option>
+                                    <option value="مصر">مصر</option>
+                                </select></td>
+                            </tr>
+                            <tr>
+                                <td><label for="user_comm">ادخل الملاحظة :</label></td>
+                                <td><textarea   class =" form-control" name="ur_comm" id="user_comm" cols="35" rows="5"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td><label for="u_file"> رفع الصورة:</label></td>
+                                <td> <input  class =" form-control"type="file"name="user_image" id="u_file"></td>
+                            </tr>
+                            <tr>
+                                <td><label class="form-label" for="u_agree">الموافقه:</label></td>
+                                <td><input  type="checkbox" name="user_agree" id="u_agree" onclick="thec();"></td>
+    
+                            </tr>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><input class="btn btn-primary"type="submit" value="ارسال"name="ok"> 
+                            <input class="btn btn-secondary" type="reset" value="اعادة "
+                              name="reset" onclick="document.Register.ok.disabled =true|| document.Register.user_agree.checked==fales">
+                        </td>
+                        
+                       </tr>
+                        </table>
+                        
+                        
+                        
+                        
+                    </form>
+                </section>
+            </div>
+            <!-- <div class="col-2">3</div> -->
+        </div>
+    </div>
+    
+</main>
+                            </table>
+                            
+                            
+                            <br>
+                          
+                            
+                            
+
+                        </form>
+                    </section>
+                </main>
+            </div>
+            <div class="col md-2"></div>
+        </div>
+    </div>
+    <footer>
+        <p>حقوق الطبع محفوظة لصفحة 2023 &copy;</p>
+    </footer>
+    
+    <script src="./44.js"></script>
+</body>
+</html>

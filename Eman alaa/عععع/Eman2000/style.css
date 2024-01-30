@@ -1,0 +1,49 @@
+body{
+    direction: rtl;
+    border-image: url(تنزيل.jpg);
+}
+header h1{
+    text-align: center;
+    color: #ffffff;
+}
+label{
+    color: #000000;
+}
+input,select,textarea{
+    margin: 5px;
+}
+footer p{
+    text-align: center;
+}
+#header,header{
+  
+    background-position: center;
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+}
+#navigation ul,nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+#navigation ul li{
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    
+}
+footer{
+    
+    text-align: center;
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+
+}
+p{
+    color: #fff;
+}

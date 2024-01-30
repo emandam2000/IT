@@ -1,0 +1,21 @@
+#header,header{
+    text-align: center;
+    background-color: blanchedalmond;
+}
+#navigation ul,nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+#navigation ul li{
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    
+}
